@@ -1,0 +1,19 @@
+SUIVI INJECTIONS 2302 — APPLICATION WEB INSTALLABLE (PWA)
+
+Contenu : index.html, manifest.webmanifest, sw.js, icon-192.png, icon-512.png.
+
+INSTALLATION DEPUIS UN SAMSUNG, SANS ORDINATEUR
+1. Décompresser le ZIP sur le téléphone (Mes fichiers).
+2. Créer un dépôt GitHub pour héberger ces 5 fichiers (GitHub Pages). Attention : un dépôt public rend le CODE de l’application accessible à tous. Ne jamais mettre de données d’injection réelles dans le dépôt.
+3. Dans Chrome, ouvrir github.com, se connecter, créer un dépôt public, puis téléverser les 5 fichiers à la racine du dépôt. Le mode « Site pour ordinateur » peut aider pour l’interface GitHub mobile.
+4. Dans Settings > Pages > Build and deployment, choisir Deploy from a branch, branche main, dossier /(root), puis Save. Attendre que l’URL HTTPS apparaisse (https://UTILISATEUR.github.io/DEPOT/).
+5. Ouvrir cette URL HTTPS dans Chrome sur Samsung. Menu ⋮ > Installer l’application ou Ajouter à l’écran d’accueil, selon ce que Chrome propose.
+6. Ouvrir l’icône depuis l’écran d’accueil. Après le premier chargement, l’application peut fonctionner hors ligne.
+
+IMPORTANT
+- Ouvrir directement index.html depuis Mes fichiers NE permet pas une installation PWA fiable : il faut HTTPS.
+- Les injections sont stockées localement dans le navigateur/appareil, pas dans GitHub. Aucun partage automatique entre téléphones.
+- Sauvegarder régulièrement en JSON et CSV. Une suppression des données du navigateur ou une désinstallation peut faire perdre l’historique.
+- La durée totale additionne les durées de chaque trou et non le temps réel écoulé si elles se chevauchent.
+- Ne pas publier de données de chantier dans GitHub. Vérifier l’autorisation de l’entreprise avant de publier une application portant sa marque.
+- Si une version HTML précédente contient des données, exporter sa sauvegarde JSON puis l’importer dans la PWA.
